@@ -1,0 +1,214 @@
+html {
+	height: 100%;
+}
+body {
+	background: #fff url(../design/bg.jpg) top center no-repeat;
+	color: #111;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:12px;
+	height: 100%;
+	color:#222;
+	overflow: hidden;
+}
+#pagewrapper {
+	width: 940px;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0px 15px;
+}
+#left {
+	float: left;
+	width: 300px;
+	text-align:right;
+}
+#right {
+	position: relative;
+	width: 620px;
+	margin-left: 20px;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+}
+#right .content {
+	padding: 20px 0px;
+	position: relative;
+
+}
+h1 {
+	margin-top: 130px;
+	font-size: 32px;
+	padding: 20px 0px;
+	text-align:right;
+	color: #262626;
+}
+.share { 
+	float: right;
+	width: 300px;
+	margin: 0px 0px 15px 0px;
+}
+.share li {
+	display: block;
+	width: 24px;
+	float: right;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	-khtml-opacity: 0.8;
+}
+.share li:hover {
+	opacity:1.0;
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	filter:alpha(opacity=100);
+}
+.nav { 
+	float: right;
+	width: 300px;
+}
+.nav li {
+	text-transform:lowercase;
+	display: block;
+	width: 300px;
+	float: right;
+}
+.nav li a{
+	display: block;
+	float: right;
+	background: #262626;
+	padding: 4px;
+	margin: 4px 0px;
+	color: #f1f1f1;
+	text-decoration: none;
+}
+.nav li a:hover{
+	display: block;
+	float: right;
+	background: #444;
+	padding: 4px;
+	margin: 4px 0px;
+	color: #f1f1f1;
+}
+#right ul li {
+	height: 260px;
+	padding: 10px 0px;
+}
+#right ul li:hover {
+	height: 260px;
+	padding: 10px 0px;
+}
+#right img {
+	float: left;
+	padding: 5px;
+	background: url(../design/image-bg.png) top left no-repeat;
+	margin-right: 20px;
+}
+#right h3 {
+	float: left;
+	text-transform: lowercase;
+	background: #262626;
+	padding: 4px;
+	font-size: 20px;
+	color: #f1f1f1;
+	margin: 20px 0px;
+}
+#right .content p {
+	float: left;
+	width: 220px;
+}
+/* About Page */
+.about {
+	margin-top: 145px;
+}
+#right .about p {
+	float: left;
+	width: 280px;
+	padding: 0px 20px 10px 0px;
+}
+#right h2 {
+	color: #262626;
+	padding: 20px 0px;
+	font-size: 18px;
+	width: 620px;
+	float: left;
+	text-transform:uppercase;
+}
+#right .about img, #right .full img {
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+#right img.alignleft {
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+#right img.alignright {
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+/* Contact Page */
+#right .about form {
+	padding: 3px 0px;
+	margin: 0px;
+	text-align:left;
+}
+#right .about form fieldset{
+	float: left;
+	width: 600px;
+	text-align:left;
+}
+#right .about form p {
+	width: 600px;
+	margin: 0px;
+	paddin: 0px;
+}
+#right .about label {
+	padding: 3px 0px;
+	margin-left: 10px;
+}
+#right .about input {
+	background:  #333;
+	padding: 4px;
+	color: #f1f1f1;
+	border: 0px;
+	margin: 4px 0px;
+}
+#right .about textarea {
+	background:  #333;
+	padding: 4px;
+	color: #f1f1f1;
+	border: 0px;
+	margin: 4px 0px;
+	overflow: auto;
+}
+#right .about .submit {
+	background:  #333;
+	padding: 5px;
+	color: #f1f1f1;
+	border: 0px;
+	margin: 4px 0px;
+	cursor: pointer;
+	font-size: 10px;
+	text-transform:uppercase;
+}
+/* Content Page */
+.full {
+	margin-top: 145px;
+}
+#right .full p {
+	float: left;
+	width: 600px;
+	padding: 0px 20px 10px 0px;
+}
+#right .full ul {
+	display: block;
+	float: left;
+}
+#right .full li {
+	height: auto;
+	padding: 5px 0px 5px 15px;
+	background: url(../design/bullet.gif) center left no-repeat;
+}
+#right .full li:hover {
+	height: auto;
+	padding: 5px 0px 5px 15px;
+}

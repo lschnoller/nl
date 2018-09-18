@@ -1,0 +1,13 @@
+body{
+	/*padding-bottom:.5em;*/
+}
+html, body {
+	background-color:#CCC;
+}
+img {  
+	border-style: none;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}

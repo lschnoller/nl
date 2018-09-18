@@ -1,0 +1,13 @@
+a#player {
+	  color:#0078CC;
+	  font:bold 14px "Courier New", Courier, monospace;
+	  text-decoration:none;
+	  font-variant:small-caps;
+
+	}
+#spacer {
+	width:50%;
+	margin:5px auto;
+	height:3px;
+	background:#f38;
+}	

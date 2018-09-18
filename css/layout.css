@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+.up{
+	width:16px;
+	height:16px;
+	display:block;
+	background: url('../design/up.png') 0 top no-repeat;
+	float: left;
+}
+a.up:hover{
+	background-position: 0 -16px;
+}
+.down{
+	width:16px;
+	height:16px;
+	display:block;
+	margin-left:17px;
+	background: url('../design/down.png') 0 top no-repeat;
+}
+a.down:hover{
+	background-position: 0 -16px;
+}
+.order-elements{
+	float:left;
+}
